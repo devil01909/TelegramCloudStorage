@@ -2,7 +2,6 @@
 <resources>
     <style name="Theme.TelegramCloud" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">#0088cc</item>
-        <item name="colorOnPrimary">#FFFFFF</item>
         <item name="android:windowBackground">#FFFFFF</item>
     </style>
 </resources>
