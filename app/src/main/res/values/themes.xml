@@ -1,37 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Light theme (default) -->
-    <style name="Theme.TelegramCloudStorage" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary brand color -->
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryVariant">@color/primary_dark</item>
-        <item name="colorOnPrimary">@android:color/white</item>
-        
-        <!-- Secondary brand color -->
-        <item name="colorSecondary">@color/accent</item>
-        <item name="colorSecondaryVariant">@color/accent_dark</item>
-        <item name="colorOnSecondary">@android:color/white</item>
-        
-        <!-- Status bar color -->
+<resources>
+    <style name="Theme.TelegramCloud" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#0088cc</item>
+        <item name="colorPrimaryVariant">#006699</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#34a853</item>
+        <item name="colorSecondaryVariant">#2c8c45</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <item name="android:windowBackground">@color/background</item>
-        
-        <!-- Material 3 specific -->
-        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Material3.MaterialAlertDialog</item>
-        
-        <!-- Bottom sheet theme -->
-        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Material3.BottomSheetDialog</item>
-    </style>
-    
-    <!-- Dialog theme -->
-    <style name="Theme.TelegramCloudStorage.Dialog" parent="Theme.Material3.DayNight.Dialog">
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorSecondary">@color/accent</item>
-    </style>
-    
-    <!-- Bottom sheet theme -->
-    <style name="Theme.TelegramCloudStorage.BottomSheet" parent="Theme.Material3.DayNight.BottomSheetDialog">
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorSecondary">@color/accent</item>
+        <item name="android:windowBackground">#FFFFFF</item>
     </style>
 </resources>
