@@ -8,10 +8,11 @@
     android:padding="24dp"
     android:background="#FFFFFF">
 
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/ic_telegram"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📱"
+        android:textSize="64sp"
         android:layout_marginBottom="24dp" />
 
     <TextView
@@ -51,9 +52,7 @@
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:text="Login with Telegram"
-        app:icon="@drawable/ic_telegram"
-        app:iconGravity="textStart" />
+        android:text="Login with Telegram" />
 
     <ProgressBar
         android:id="@+id/progressBar"
