@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.yourname.telegramcloud.app-mergeDebugResources-62:/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-3/e6690d7784dbef1729bbe929990d631a/transformed/jetified-ucrop-2.2.6/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "104,158,205"
+                    }
+                }
+            ]
+        }
+    ]
+}

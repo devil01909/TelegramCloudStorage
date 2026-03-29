@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme options -->
+    <string-array name="theme_options">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System</item>
+    </string-array>
+    
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>system</item>
+    </string-array>
+    
+    <!-- Sort options -->
+    <string-array name="sort_options">
+        <item>By Name</item>
+        <item>By Date</item>
+        <item>By Size</item>
+    </string-array>
+    
+    <!-- File type filters -->
+    <string-array name="file_type_filters">
+        <item>All Files</item>
+        <item>Images</item>
+        <item>Videos</item>
+        <item>Audio</item>
+        <item>Documents</item>
+    </string-array>
+</resources>

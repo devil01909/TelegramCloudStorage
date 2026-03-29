@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:layout_margin="4dp"
+     app:cardElevation="1dp"
+     app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:padding="12dp">
+
+        <ImageView
+             android:layout_height="40dp"
+             android:layout_width="40dp"
+             android:src="@android:drawable/ic_menu_gallery"
+             app:layout_constraintTop_toTopOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintBottom_toBottomOf="parent"
+             android:id="@+id/ivIcon" />
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             app:layout_constraintTop_toTopOf="parent"
+             android:orientation="vertical"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toEndOf="@id/ivIcon"
+             android:layout_marginStart="12dp"
+             android:id="@+id/fileInfo">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:ellipsize="end"
+                 android:textSize="14sp"
+                 android:textColor="@color/text_primary"
+                 android:maxLines="1"
+                 android:id="@+id/tvFileName"
+                 android:text="file_name.pdf"
+                 android:textStyle="bold" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:textSize="12sp"
+                 android:textColor="@color/text_secondary"
+                 android:id="@+id/tvFileSize"
+                 android:text="1.2 MB" />
+
+            <ProgressBar
+                 android:layout_height="4dp"
+                 android:layout_width="match_parent"
+                 android:max="100"
+                 style="?android:attr/progressBarStyleHorizontal"
+                 android:layout_marginTop="8dp"
+                 android:id="@+id/progressBar" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:textSize="10sp"
+                 android:textColor="@color/text_secondary"
+                 android:layout_marginTop="4dp"
+                 android:id="@+id/tvProgress"
+                 android:text="0%" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

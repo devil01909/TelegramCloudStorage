@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TelegramCloudStorage" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">#0088cc</item>
+        <item name="colorPrimaryVariant">#006699</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        
+        
+        <item name="colorSecondary">#34a853</item>
+        <item name="colorSecondaryVariant">#2c8c45</item>
+        <item name="colorOnSecondary">#ffffff</item>
+        
+        
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorSurface">#1e1e1e</item>
+        <item name="colorOnSurface">#e1e1e1</item>
+        
+        
+        <item name="android:statusBarColor">#1a1a1a</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        
+        
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#b0b0b0</item>
+        
+        
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Material3.MaterialAlertDialog</item>
+        
+        
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Material3.BottomSheetDialog</item>
+    </style>
+    <style name="Theme.TelegramCloudStorage.BottomSheet" parent="Theme.Material3.DayNight.BottomSheetDialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/accent</item>
+    </style>
+    <style name="Theme.TelegramCloudStorage.Dialog" parent="Theme.Material3.DayNight.Dialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:colorBackground">#1e1e1e</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/TelegramCloudStorage/app/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 3654,
+          "line": 112
+        },
+        "start": {
+          "column": 1,
+          "index": 3654,
+          "line": 112
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/TelegramCloudStorage/app/build.gradle.kts"
+}
