@@ -4,28 +4,55 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="32dp">
-    
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_telegram"
+        android:layout_marginBottom="24dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Telegram Cloud Storage"
-        android:textSize="24sp"
+        android:text="Telegram Cloud"
+        android:textSize="28sp"
         android:textStyle="bold"
         android:textColor="#0088cc"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="18sp"
+        android:textColor="#333333"
         android:layout_marginBottom="32dp" />
-    
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="App is running successfully!"
+        android:text="✅ You are logged in!"
         android:textSize="16sp"
-        android:layout_marginBottom="32dp" />
-    
-    <Button
-        android:id="@+id/button"
+        android:textColor="#4CAF50"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Coming Soon" />
-    
+        android:text="File storage coming soon..."
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="32dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:textColor="#FF0000" />
+
 </LinearLayout>
