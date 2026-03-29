@@ -2,12 +2,7 @@
 <resources>
     <style name="Theme.TelegramCloud" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">#0088cc</item>
-        <item name="colorPrimaryVariant">#006699</item>
         <item name="colorOnPrimary">#FFFFFF</item>
-        <item name="colorSecondary">#34a853</item>
-        <item name="colorSecondaryVariant">#2c8c45</item>
-        <item name="colorOnSecondary">#FFFFFF</item>
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <item name="android:windowBackground">#FFFFFF</item>
     </style>
 </resources>
